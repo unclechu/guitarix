@@ -97,6 +97,7 @@ def build(bld):
     sources_plugin = [
         'low_high_pass.dsp',
         'gx_distortion.dsp',
+        'bitdowner.dsp',
         'impulseresponse.dsp',
         'compressor.dsp',
         'expander.dsp',
@@ -133,15 +134,15 @@ def build(bld):
         'baxandall.dsp',
         'distortion2.dsp',
         'fuzzface.dsp',
-        'trbuff.dsp',       
-        'colwah.dsp',       
-        'dallaswah.dsp',       
-        'foxwah.dsp',       
-        'maestrowah.dsp',       
-        'voxwah.dsp',       
-        'selwah.dsp',       
-        'jenwah.dsp',       
-        'colbwah.dsp',       
+        'trbuff.dsp',
+        'colwah.dsp',
+        'dallaswah.dsp',
+        'foxwah.dsp',
+        'maestrowah.dsp',
+        'voxwah.dsp',
+        'selwah.dsp',
+        'jenwah.dsp',
+        'colbwah.dsp',
 
 
         # amps
